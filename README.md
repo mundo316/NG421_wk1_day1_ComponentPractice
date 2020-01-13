@@ -50,7 +50,7 @@ Let's use our data to dynamically make some html and components show up in our p
 
 ### Dynamic elements
 * TransactionsPanel (transaction-panel.component.ts)
-  * Import the orders array into this component from `./src/app/orders.ts`
+* Import the orders array into this component from `./src/app/orders.ts`
   * In the `OnNgInit`method, assign this array to a class property called `orders` 
   * In `transaction-panel.component.html` use `ngFor` on the `<tr>` element in the `tbody`
   * `<tr *ngFor="let order of orders"></tr>`
